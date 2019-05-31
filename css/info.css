@@ -1,0 +1,16 @@
+html, body{ font-family: Arial; }
+header{
+	background-color: #94cef7;
+	padding: 20px;
+	text-align: center;
+}
+header h1{font-size: 220; color: yellow;}
+header img{ border-radius: 150px; width: 200px; height: 200px; border: 5px solid #f7b81b }
+.content{
+	max-width: 700px;
+	margin: 0 auto;
+}
+.senseisleep {max-width: 100%}
+.caption {font-size: 20px; color: darkblue;}
+ol, ul{list-style: none; padding: 0; margin: 0;}
+footer{background-color: lightgray; padding: 15px 5px 5px 5px; text-align: right;}
