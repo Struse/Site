@@ -1,4 +1,4 @@
-html, body{ font-family: Arial; }
+html, body{ font-family: Arial; margin: 1px;}
 header{
 	background-color: #94cef7;
 	padding: 20px;
@@ -11,12 +11,14 @@ h2{ background-color: orange; margin-top: 0; padding-left: 5px;  background-repe
 
  }
 .content{
+	border-right: 1px solid black; border-left: 1px solid black;
 	max-width: 800px;
 	margin: 0 auto;
+	padding-bottom: 10px;
 }
-.senseisit {max-width: 100%; width: 350px; height: 600px}
-.caption {font-size: 12px; color:  gray; margin: -5px 0 10px 20px;}
+.senseisit {max-width: 100%; width: 350px; height: 600px; margin-right: auto; margin-left: auto; display: block;}
+.caption {font-size: 12px; color: gray; margin: 0; text-align: center;}
 ol{list-style: none; padding: 0;}
 ul{list-style: none; padding: 0; margin: 0;}
-footer{background-color: lightgray; padding: 3px 10px 3px 5px; text-align: right;}
+footer{background-color: lightgray; padding: 3px 10px 3px 5px;  text-align: right;}
 .link{ text-decoration: none; color: red; }
